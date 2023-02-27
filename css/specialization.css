@@ -1,0 +1,21 @@
+#specialization {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#specialization-content{
+    width: 50%;
+}
+
+#specialization-content h2, #specialization-content h3, #specialization p {
+    padding: 10px;
+}
+
+.point-specialization li{
+    padding: 5px;
+    margin-left: 45px;
+}

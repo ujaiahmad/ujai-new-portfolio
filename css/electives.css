@@ -1,0 +1,24 @@
+#electives {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#electives-content{
+    width: 50%;
+    margin-top: 10%;
+}
+
+#electives-content h2, #electives-content h3, #electives-content p {
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.pointer-electives li{
+    padding: 5px;
+    margin-left: 45px;
+}
+

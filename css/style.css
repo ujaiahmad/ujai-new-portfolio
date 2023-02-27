@@ -1,0 +1,219 @@
+/*
+Color pallete:
+red: #CA054D
+purple: #3B1C32
+light green: #A4D4B4
+sunset: #FFCF9C
+brown: #B96D40
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ovo';
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+/* nav-bar */
+header {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: white;
+}
+
+#left{
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+header li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    color: #CA054D;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: #A4D4B4;
+}
+
+h1, h2{
+    color: #CA054D;
+}
+
+h3 {
+    color: #3B1C32;
+}
+
+.button {
+    display: flex;
+    /* margin-top: 10px; */
+    flex-direction: row;
+    /* margin-left: 10px; */
+    align-items: center;
+}
+
+.button a {
+    background-color: #CA054D;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.button a:hover {
+    background-color: #A4D4B4;
+    color: black;
+}
+
+a {
+    color:#CA054D ;
+    display: inline-block;
+  
+}
+
+.badge {
+    transition: all 0.3s ease 0s;
+}
+
+.badge:hover {
+    color: #A4D4B4;
+}
+
+.badge:hover .icon-badge {
+    color: black;
+    background-color: #A4D4B4;
+}
+
+.icon-badge {
+    position: relative;
+  top: -7px;
+  right: -2px;
+  padding: 3px 7px;
+  border-radius: 50%;
+  background: #CA054D;
+  color: white;
+  font-size: 10px;
+  transition: all 0.3s ease 0s;
+  z-index: -1;
+}
+
+.dropdown {
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.dropdown-item{
+    padding-top: 15px;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.dropdown-item li {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 1px 8px #ddd;
+}
+
+.dropdown:hover .dropdown-item {
+    display: flex;
+}
+
+
+@media screen and (max-width: 500px) {
+    
+    /* header {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    } */
+
+    /* #nav-bar {
+        display: inline-block;
+    } */
+    *{
+        max-width: 100%;
+        padding: 0;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+   #home-content, 
+   #education-content, 
+   #fyp-content, 
+   #specialization-content,
+   #electives-content,
+   #other-skills-content, 
+   #cocu-content,
+   #contact-content{
+        min-width: 85%;
+    }
+
+    #other-skills #other-skills-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .button{
+        flex-direction: column;
+    }
+
+    .button a {
+       width: 100%;
+       text-align: center;
+    }
+
+    #specialization, #education-content{
+        margin-top: 20vh;
+    }
+
+    #electives-content, #fyp-content, #specialization-content {
+        margin-top: 30vh;
+    }
+
+    #electives {
+        margin-top: 40vh;
+        padding-top: 40vh;
+    }
+
+    #other-skills{
+        margin-top: 20vh;
+    }
+    
+    #cocu {
+        margin-top: 10vh;
+    }
+
+   
+
+   
+  }

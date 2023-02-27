@@ -1,0 +1,21 @@
+#cocu {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cocu-content{
+    width: 50%;
+}
+
+#cocu-content h2, #cocu-content p {
+    padding: 10px;
+}
+
+.point-cocu li {
+    padding: 5px;
+    margin-left: 45px;
+}

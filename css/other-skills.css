@@ -1,0 +1,35 @@
+#other-skills {
+    height: 100vh;
+    width: 100vw;
+  
+
+    /* 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+}
+
+#other-skills h2 {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 40vh;
+}
+
+#other-skills-content {
+    width: 50%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: row;
+    margin: auto;
+}
+
+#other-skills-content h2, #other-skills-content p {
+    padding: 10px;
+}
+
+.point-otherSkills li{
+    padding: 5px;
+    margin-left: 45px;
+}

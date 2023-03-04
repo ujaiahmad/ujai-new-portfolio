@@ -1,0 +1,59 @@
+#skill-bar {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+#skill-bar-content{
+    width: 50%;
+}
+
+#skill-bar-content h2, #skill-bar-content h3, #fyp-content p {
+    padding: 5px;
+}
+
+.container {
+    width: 100%;
+    background-color: rgb(201, 190, 190);
+    border-radius: 10px;
+}
+
+.flutter, .html, .css, .javascript, .python, .cplus2, .java{
+    background-color: #CA054D;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    text-align: end;
+}
+
+.flutter {
+    width: 85%;
+}
+
+.html {
+    width: 70%;
+}
+
+.css {
+    width: 65%;
+}
+
+.javascript {
+    width: 65%;
+}
+
+.python {
+    width: 60%;
+}
+
+.cplus2 {
+    width: 70%;
+}
+
+.java {
+    width: 70%;
+}

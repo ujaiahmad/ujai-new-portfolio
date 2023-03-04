@@ -15,9 +15,11 @@
     line-height: 1.5;
 }
 
-#home h1, #home h2, #home p, #home a {
+#home h1, #home h2, #home h3, #home p, #home a {
     padding: 10px;
 }
+
+
 
 
 

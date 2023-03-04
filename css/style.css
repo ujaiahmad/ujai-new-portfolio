@@ -253,3 +253,124 @@ a {
     
    
   }
+
+
+  @media screen and (max-width: 400px) {
+    
+    
+    *{
+        max-width: 100%;
+        padding: 0;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    #left {
+        margin: 0;
+    }
+
+   
+    #nav-bar ul{
+        /* display: inline-block; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .dropdown {
+        display: inline-block;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .dropdown-item{
+        padding-top: 5px;
+        position: absolute;
+        z-index: 1;
+        
+    }
+    
+    .dropdown-item li {
+        display: none;
+        /* padding: 15px; */
+        width: 150px;
+        background-color: white;
+        box-shadow: 0 1px 8px #ddd;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .dropdown:hover .dropdown-item li {
+        display: flex;
+    }
+    
+
+   #home-content, 
+   #education-content, 
+   #fyp-content, 
+   #specialization-content,
+   #electives-content,
+   #other-skills-content, 
+   #cocu-content,
+   #contact-content{
+        min-width: 85%;
+    }
+
+    #other-skills #other-skills-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .button{
+        flex-direction: column;
+    }
+
+    .button a {
+       width: 100%;
+       text-align: center;
+    }
+
+    #specialization, #education-content{
+        margin-top: 40vh;
+    }
+
+    #electives-content, #fyp-content, #specialization-content {
+        margin-top: 50vh;
+    }
+
+    #electives {
+        margin-top: 60vh;
+        padding-top: 60vh;
+    }
+
+    #other-skills{
+        margin-top: 20vh;
+    }
+    
+    #cocu {
+        margin-top: 10vh;
+    }
+
+    #skill-bar{
+        margin-top: 100vh;
+        padding-top: 10vh;
+    }
+
+    
+   
+  }
